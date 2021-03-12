@@ -10,8 +10,8 @@ packages:
 - accelerate-llvm-ptx
 
 extra-deps:
-- github: tmcdonell/accelerate
-  commit: b23f41f2383bc21e099ebae75a18aed213aa5d48
+- git: https://github.com/AccelerateHS/accelerate.git
+  commit: 49a39ea6e3d2d13cbfa8605dcb57a29ef13db1f9
 - git: https://github.com/matt-noonan/llvm-hs.git
   commit: 6ddf7e8bbb219ccc6e0d13c4b8b945cba8952dab
   subdirs:
